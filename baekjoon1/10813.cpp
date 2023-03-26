@@ -4,8 +4,8 @@ using namespace std;
 int main() {
 	int n, m, i, j;
 	int temp=0;
-	int box[100];
-	for (int i = 0; i < 100; i++) {
+	int box[101];
+	for (int i = 0; i <= 100; i++) {
 		box[i] = i;
 	}
 	cin >> n >> m;
